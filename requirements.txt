@@ -11,3 +11,5 @@ Pillow==7.1.2
 Flask
 Flask-RESTful
 Flask-WTF
+torch==1.12.1
+torchvision==0.13.1
