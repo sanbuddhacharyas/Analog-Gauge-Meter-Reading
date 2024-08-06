@@ -12,6 +12,9 @@ jobs:
     container: node:14
     
     steps:
+    - name: Print GitHub Token
+      run: echo ${{ secrets.GITHUB_TOKEN }}
+      
     - name: Checkout code
       uses: actions/checkout@v2
 
